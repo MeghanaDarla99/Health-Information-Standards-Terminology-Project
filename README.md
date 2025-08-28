@@ -9,34 +9,7 @@ Interoperability: Achieve semantic and syntactic interoperability between OpenMR
 Practical Demonstration: Convert C-CDA documents to JSON, post data to systems via REST APIs using Postman, and verify bidirectional data exchange (Sprint 5).
 # Use Case
 A 65-year-old male patient presents with a headache and is diagnosed with hypertensive urgency (BP 190/130 mmHg). He is a chronic smoker, non-alcoholic, with a family history of diabetes mellitus and hypertension. The clinician prescribes 0.2 mg clonidine, admits the patient to the hospital, and instructs nurses to monitor blood pressure every 4 hours. All data is recorded in OpenMRS, and nursing observations are updated in OpenELIS, with bidirectional data exchange ensured.
-# Repository Structure
-```
-├── README.md
-├── api
-│   └── postman_collection.json
-├── docs
-│   ├── PS1.pdf
-│   ├── PS2.pdf
-│   ├── PS4.docx
-│   ├── PS5.docx
-│   └── images
-│       ├── image1.png
-│       ├── image2.png
-│       ├── image3.png
-│       ├── image4.png
-│       └── image5.png
-├── output
-│   ├── consultation_notes.json
-│   ├── encounters.json
-│   ├── patient_info.json
-│   ├── plan_of_treatment.json
-│   └── vital_signs.json
-└── xslt
-    ├── consultation_notes.xslt
-    ├── encounters.xslt
-    ├── patient_info.xslt
-    ├── plan_of_treatment.xslt
-    └── vital_signs.xslt
+
 ```
 
 
@@ -63,4 +36,9 @@ API/:API-related files.
 	postman_collection.json: Postman collection for REST API requests to OpenMRS and OpenELIS.
 
 
-
+```
+# Contributors
+Deepishka Pemmasani
+Meghana Darla
+Harika Mareddy
+Priyankitha Kandi
